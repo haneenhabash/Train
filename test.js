@@ -10,7 +10,10 @@ function power(a, b) {
   if (b === 0) return "Cannot divide by zero";
   return a / b;
 }
-
+function power2(a, b) {
+  if (b === 0) return "Cannot divide by zero";
+  return a / b;
+}
 function mod(a, b) {
   return a % b;
 }
