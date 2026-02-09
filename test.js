@@ -10,7 +10,7 @@ function mul(a, b) {
   return a * b;
 }
 
-function div(a, b) {
+function div(a, b,c) {
   if (b === 0) return "Cannot divide by zero";
   return a / b;
 }
