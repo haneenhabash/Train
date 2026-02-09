@@ -6,14 +6,16 @@ function sub(a, b) {
   return a - b;
 }
 
-function mul(a, b) {
-  return a * b;
+function power(a, b) {
+  if (b === 0) return "Cannot divide by zero";
+  return a / b;
 }
 
 function div(a, b) {
   if (b === 0) return "Cannot divide by zero";
   return a / b;
 }
+
 
 // Test runs
 console.log("Add:", add(5, 3));
