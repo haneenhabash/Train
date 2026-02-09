@@ -6,7 +6,7 @@ function sub(a, b) {
   return a - b;
 }
 
-function power(a, b) {
+function power33(a, b) {
   if (b === 0) return "Cannot divide by zero";
   return a / b;
 }
