@@ -6,9 +6,12 @@ function sub(a, b) {
   return a - b;
 }
 
-function mul(a, b) {
-  return a * b;
+function mod(a, b) {
+  return a % b;
 }
+
+console.log("Mod:", mod(10, 3));
+
 
 function div(a, b,c) {
   if (b === 0) return "Cannot divide by zero";
